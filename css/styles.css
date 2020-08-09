@@ -1,0 +1,161 @@
+/** TAG SELECTORS **/
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    color: #40514E;
+}
+
+h1 {
+    margin: 50px auto;
+    line-height: 2;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #be5683;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #be5683
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #93b5e1
+}
+
+p {
+    line-height: 2;
+}
+
+
+hr {
+    width: 5%;
+    border: dotted #788d8d 5px;
+    border-bottom: none;
+    margin: 50px auto;
+}
+
+/** CLASS SELECTORS **/
+
+.top-container {
+    background-color: mistyrose;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: aliceblue;
+}
+
+.bottom-container {
+    background-color: #d4709b;
+    padding: 30px 0 10px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.kriti-sharma-image {
+    width: 25%;
+}
+
+.personal-descriptor {
+    color: #be5683;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.footer-link {
+    color: #b42161;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.code-skills-image {
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.paint-skills-image {
+    width: 25%;
+    height: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile {
+    width: 50%;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.contact-me {
+    width: 50%;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.copyright-text {
+    color: #EAF6F6;
+    font-size: 0.725rem;
+    margin: 20px;
+}
+
+.btn {
+    background: #BE5683;
+    background-image: -webkit-linear-gradient(top, #BE5683, #F590BC);
+    background-image: -moz-linear-gradient(top, #BE5683, #F590BC);
+    background-image: -ms-linear-gradient(top, #BE5683, #F590BC);
+    background-image: -o-linear-gradient(top, #BE5683, #F590BC);
+    background-image: linear-gradient(to bottom, #BE5683, #F590BC);
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.btn:hover {
+    background: #d6759f;
+}
+
+/* .code-skills-description  {
+    clear: left;
+}
+
+.paint-skills-description {
+    clear: right;
+} */
